@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Fauna One", serif;
     background-color: #D5D5D5;
 }
 nav {
@@ -32,7 +32,7 @@ nav > ul {
 nav > ul > li {
     float: left;
     list-style: none;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Playfair Display", serif;
     font-weight: bold;
     font-size: 14pt;
     overflow: hidden;
@@ -67,7 +67,6 @@ section img {
 		height: auto;
 }
 article{
-		padding-top: 3px;
 		background-color: #e1e1e1;
 		margin-left: auto;
 		margin-right: auto;
@@ -90,7 +89,10 @@ tr:nth-child(even) {
 }
 .title {
 	font-size: 40px;
-	font-size: 40px;
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-weight: bold;
+}
+.bold {
+    font-weight: bold;
+    font-size: 18px;
 }
