@@ -5,12 +5,12 @@
 
 body {
         font-family: "Lato", sans-serif;
-        background-color: #F1F1F1;
+        background-color: #FFFFFF;
         font-weight: 300;
         font-size: 21px;
 }
 nav {
-        background-color: #9099A2;
+        background-color: #FFFFFF;
         border-bottom: 0;
         position: relative;
 }
@@ -19,16 +19,16 @@ nav > h1 {
         left: 15px;
         font-family: "Lato", sans-serif;
         font-weight: 700;
-        text-shadow: 1px 1px #0e0000;
-        color: #FCFCFC;
+        color: #DCDCDC;
         font-size: 20pt;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
+        letter-spacing: 1.5px;
 }
 nav > h1 > a {
         text-decoration: none;
-        color: white;
+        color: #393939;
 }
 nav > ul {
         float: right;
@@ -50,12 +50,12 @@ nav > ul > li a {
         text-decoration: none;
         text-align: center;
         padding: 14px 16px;
-        color: #FCFCFC
+        color: #393939
 
 }
 nav > ul > li a:hover{
-        background-color: #FCFCFC;
-        color: #9099A2;
+        background-color: #393939;
+        color: #FFFFFF;
         margin-bottom: 0;
 }
 nav > ul > li a:active{
@@ -64,7 +64,7 @@ nav > ul > li a:active{
         margin-bottom: 0;
 }
 section {
-		padding-top: 3px;
+		padding-top: 0px;
 }
 section img {
 		align-self: center;
@@ -72,11 +72,13 @@ section img {
 		height: auto;
 }
 article{
-		background-color: #e1e1e1;
 		margin-left: auto;
 		margin-right: auto;
 		width: 70%;
 		padding: 10px 20px 10px 20px;
+        margin-bottom: 10px;
+        color: #393939;
+        font-weight: 300;
 }
 table {
 		border-collapse: collapse;
