@@ -98,8 +98,17 @@ tr:nth-child(even) {
 	font-size: 40px;
 	font-family: "Lato", sans-serif;
 	font-weight: 900;
+    margin: auto;
+    text-align: center;
 }
 .bold {
     font-weight: bold;
     font-size: 18px;
+}
+.rule {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-color: #888888
 }
