@@ -46,7 +46,6 @@ nav > ul > li {
         font-family: "Lato", sans-serif;
         font-weight: 600;
         font-size: 14pt;
-        overflow: hidden;;
         padding: 0;
 }
 nav > ul > li a {
@@ -68,19 +67,19 @@ nav > ul > li a:active{
         margin-bottom: 0;
 }
 header {
-		padding-top: 0px;
+	padding-top: 0px;
         position: relative;
 }
 .headerImage {
-		align-self: center;
-		max-width: 100%;
-		height: auto;
+	align-self: center;
+	max-width: 100%;
+	height: auto;
 }
 article {
-		margin-left: auto;
-		margin-right: auto;
-		width: 70%;
-		padding: 10px 20px 10px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	padding: 10px 20px 10px 20px;
         margin-bottom: 0px;
         color: #393939;
         font-weight: 300;
@@ -88,30 +87,30 @@ article {
 section {
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
+        width: 75%;
         padding: 10px 20px 10px 20px;
         margin-bottom: 0px;
         color: #393939;
         font-weight: 300;
 }
 table {
-		border-collapse: collapse;
-		width: 50%;
-		margin: auto;
-		border-spacing: auto;
+	border-collapse: collapse;
+	width: 50%;
+	margin: auto;
+	border-spacing: auto;
 }
 td, th {
-		border: 1px solid #d5d5d5;
-		text-align: left;
-		padding: 8px;
+	border: 1px solid #d5d5d5;
+	text-align: left;
+	padding: 8px;
 }
 tr:nth-child(even) {
-		background-color: #9099A2;
+	background-color: #9099A2;
 }
 footer {
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
+        width: 75%;
         padding: 20px 20px 20px 20px;
         margin-bottom: 20px;
         color: #5f5f5f;
@@ -127,9 +126,9 @@ footer {
         float: left;
 }
 .title {
-	    font-size: 40px;
-	    font-family: "Lato", sans-serif;
-	    font-weight: 900;
+	font-size: 40px;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
         margin: auto;
         text-align: center;
 }
@@ -138,7 +137,7 @@ footer {
         font-size: 23px;
 }
 .rule {
-        width: 40%;
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
@@ -163,4 +162,11 @@ footer {
 }
 .imageText:hover {
         font-size: 23px;
+}
+.articleImage {
+        padding-top: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        filter: grayscale(100%);
 }
